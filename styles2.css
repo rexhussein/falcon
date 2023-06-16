@@ -1,71 +1,155 @@
 *{
 margin: 0px;
-padding: 0px;
+padding: 0px;}
+
+.header{
+    width: 1000px;
+    font-size: 50px;
+    color:#ffffff;
+    padding-left: 100px;
+    margin-left: 10px;
+    background-color:#ea6f17;
 }
-.logo{
+
+.info p{
+    font-weight: bold;
+    font-size: 80px;
+    color:#ea6f17;
+    line-height: 100px;
+    padding-left: 100px
+
+}
+
+.package{
+    padding: 80px;
+    font-weight: bold;
+    font-size: 100px;
+    color:#ffffff;
+
+    padding-left: 100px;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 100px;
+    color:#ea6f17;
+    padding-left: 75;
+
+}
+
+.banner{
+    margin:-50px;
     cursor: pointer;
+    width: 300px;
+    height: 150px;
+    border-radius: 150px;
+    background-color:#ffffff;
+    color:#ea6f17;
+    font-size:50px;
+    font-weight: bold;
+    margin-left: 400px;
+
 }
+
 
 body{
-    background-color: #4B4B4B;
+    background-image: url("images/Home.png");
+    width:1000px;
+
 }
 
-
-nav{
-    background-color: black;
+.list li {
+    float: bottom;
+    margin: 50px;
+    margin-left: 0px;
+    background-color:#ea6f17;
+    padding-left:119px;
+    height: 300px;
     width: 100%;
-}
-.image-info{
-    display: inline-block;
-    float: left;
-    padding-top: 20px;
-
-}
-.list a: hover{
-    color:#4B4B4B
-
-}
-
-
-.info{
-    padding-top: 40px;
-    display: flex-wrap;
-    float: ;
-    width: 100%;
-    font-size: 30px;
-    font-family: arial;
-}
-
-p{
-    color: black;
-}
-
-.list a{
     text-decoration: none;
-    list-style: none;
-    color: #ea6f17;
-    font-size: 25px;
-}
 
-.list li{
-    padding-right: 50px;
-
-    display: inline-block;
-    list-style: none;
-}
-
-
-@media only screen and (min-width: 768px) {
-    .info{
-    width: 100%;
-    font-size: 45px;
     }
+@media only screen and (min-width: 768px) {
+    .conditions{
+      font-size: 10px;
+    }
+
+    .package{
+    margin-top: 0px;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    color:#ffffff;
+
+    padding-left: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) {
+    .conditions{
+      font-size: 5px;
+    }
+
 }
 
 @media only screen and (min-width: 1000px) {
-   .info{
-    width: 100%;
-    font-size: 15px;
+
+
+    .header{
+    margin-left: 100px;
+    width: 1000px;
+    font-size: 25px;
+    color:#ffffff;
+    padding-left: 100px;
+    background-color:#ea6f17;
     }
 
+    .info{
+    font-weight: bold;
+    font-size: 50px;
+    color:#ea6f17;
+    line-height: 100px;
+    padding-left: 100px
+
+    }
+
+    .list li {
+
+    margin-top: 100px;
+    margin-left: 100px;
+    }
+
+    .banner{
+
+    margin-top:-50px;
+    cursor: pointer;
+    width: 300px;
+    height: 150px;
+    border-radius: 150px;
+    background-color:#ffffff;
+    color:#ea6f17;
+    font-size:50px;
+    font-weight: bold;
+    margin-left: 550px;
+
+    }
+    .package{
+    margin-top: 100px;
+    padding: 100px;
+    font-weight: bold;
+    font-size: 100px;
+    color:#ffffff;
+
+    padding-left: 100px;
+    }
+
+    .conditions{
+      font-size: 10px;
+    }
+
+
+
 }
+
+
