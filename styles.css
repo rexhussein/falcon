@@ -11,17 +11,17 @@ padding: 0px;}
     background-color:#ea6f17;
 }
 
-.info{
+.info p{
     font-weight: bold;
     font-size: 80px;
     color:#ea6f17;
-    line-height: 150px;
+    line-height: 100px;
     padding-left: 100px
 
 }
 
 .package{
-    padding: 100px;
+    padding: 80px;
     font-weight: bold;
     font-size: 100px;
     color:#ffffff;
@@ -69,6 +69,29 @@ body{
     text-decoration: none;
 
     }
+@media only screen and (min-width: 768px) {
+    .conditions{
+      font-size: 10px;
+    }
+
+    .package{
+    margin-top: 0px;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    color:#ffffff;
+
+    padding-left: 100px;
+    }
+
+}
+
+@media only screen and (min-width: 375px) {
+    .conditions{
+      font-size: 5px;
+    }
+
+}
 
 @media only screen and (min-width: 1000px) {
 
