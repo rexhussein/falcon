@@ -55,6 +55,10 @@ p{
     list-style: none;
 }
 
+.map{
+    margin-left: 350px;
+}
+
 
 @media only screen and (min-width: 768px) {
     .info{
@@ -70,4 +74,3 @@ p{
     }
 
 }
-
