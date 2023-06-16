@@ -1,0 +1,67 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.logo{
+    cursor: pointer;
+}
+
+body{
+    background-color: grey;
+}
+
+
+nav{
+    background-color: black;
+    width: 100%;
+}
+.image-info{
+    display: inline-block;
+    float: left;
+    padding-top: 20px;
+
+}
+
+
+.info{
+    padding-top: 40px;
+    display: flex-wrap;
+    float: ;
+    width: 100%;
+    font-size: 30px;
+    font-family: arial;
+}
+
+p{
+    color: black;
+}
+
+.list a{
+    text-decoration: none;
+    list-style: none;
+    color: #ea6f17;
+    font-size: 25px;
+}
+
+.list li{
+    padding-right: 50px;
+
+    display: inline-block;
+    list-style: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .info{
+    width: 100%;
+    font-size: 45px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+   .info{
+    width: 100%;
+    font-size: 15px;
+    }
+
+}
